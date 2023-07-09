@@ -1,0 +1,34 @@
+
+<title><%=title%></title>
+
+<%- include("./template/header.ejs") %>
+
+<div class="formulario__agregar">
+    <div class="formulario__title">Datos del material</div>
+    <form method="POST" action="/update">
+        <label for="id_product">ID:</label> 
+        <input type="number" required readonly name="id_product" id="id_product" placeholder="ID" value="<%=data.id_product %>">
+        <label for="name">Nombre:</label> 
+        <input type="text" required name="name"  id="name" placeholder="Nombre del asiento" value="<%=data.name %>">
+        <label for="price">Precio:</label> 
+        <input type="number" required name="price"  id="price" placeholder="Precio del asiento" value="<%=data.price %>">
+        <label for="number">Cantidad:</label> 
+        <input type="number" required name="number"  id="number" placeholder="Precio del asiento" value="<%=data.number %>">
+        <label for="description">Descripcion:</label> 
+        <input type="text" required name="description"  id="description" placeholder="Precio del asiento" value="<%=data.description %>">
+        <label for="brand">Marca:</label> 
+        <input type="text" required name="brand"  id="brand" placeholder="Precio del asiento" value="<%=data.brand %>">
+        
+
+        <div class="container__buttons">
+
+            <button type="submit" class="button button--success">Modificar</button>
+    
+            <button type="submit" name="accion" value="Cancelar" class="button button--info"><a href="/inventory" class="button--a">Cancelar</a></button>
+        </div>
+    </form>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

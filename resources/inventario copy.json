@@ -1,0 +1,273 @@
+{
+  "1": {
+    "id_product": "1",
+    "name": "Cemento",
+    "price": "1000",
+    "number": "2",
+    "description": "Material",
+    "brand": "Boyaca"
+  },
+  "2": {
+    "id_product": "2",
+    "name": "Ladrillos",
+    "price": "500",
+    "number": "10",
+    "description": "Elementos para construcción de muros",
+    "brand": "Cerámica S.A."
+  },
+  "3": {
+    "id_product": "3",
+    "name": "Arena",
+    "price": "200",
+    "number": "5",
+    "description": "Material para mezclas de construcción",
+    "brand": "Río Blanco"
+  },
+  "4": {
+    "id_product": "4",
+    "name": "Varillas de acero",
+    "price": "1500",
+    "number": "3",
+    "description": "Refuerzo para estructuras de concreto",
+    "brand": "Siderúrgica Nacional"
+  },
+  "5": {
+    "id_product": "5",
+    "name": "Bloques de concreto",
+    "price": "800",
+    "number": "8",
+    "description": "Unidades modulares para construcción",
+    "brand": "ConstruBlock"
+  },
+  "6": {
+    "id_product": "6",
+    "name": "Cemento de secado rápido",
+    "price": "1200",
+    "number": "4",
+    "description": "Ideal para trabajos de reparación",
+    "brand": "RapidMix"
+  },
+  "7": {
+    "id_product": "7",
+    "name": "Madera de pino",
+    "price": "900",
+    "number": "15",
+    "description": "Material versátil para estructuras y acabados",
+    "brand": "PinoPlus"
+  },
+  "8": {
+    "id_product": "8",
+    "name": "Yeso en polvo",
+    "price": "300",
+    "number": "6",
+    "description": "Ideal para enlucidos y acabados",
+    "brand": "YesoMaster"
+  },
+  "9": {
+    "id_product": "9",
+    "name": "Adhesivo para cerámica",
+    "price": "250",
+    "number": "10",
+    "description": "Especial para instalación de azulejos",
+    "brand": "TileBond"
+  },
+  "10": {
+    "id_product": "10",
+    "name": "Pintura acrílica",
+    "price": "400",
+    "number": "12",
+    "description": "Para decoración y protección de superficies",
+    "brand": "ColorCoat"
+  },
+  "11": {
+    "id_product": "11",
+    "name": "Aislante térmico",
+    "price": "1500",
+    "number": "2",
+    "description": "Reduce la transferencia de calor",
+    "brand": "ThermalGuard"
+  },
+  "12": {
+    "id_product": "12",
+    "name": "Herramientas de albañilería",
+    "price": "600",
+    "number": "8",
+    "description": "Conjunto de herramientas esenciales",
+    "brand": "ProBuilder"
+  },
+  "13": {
+    "id_product": "13",
+    "name": "Tubo de PVC",
+    "price": "100",
+    "number": "20",
+    "description": "Conducción de fluidos en instalaciones",
+    "brand": "PipePro"
+  },
+  "14": {
+    "id_product": "14",
+    "name": "Tela asfáltica",
+    "price": "700",
+    "number": "5",
+    "description": "Impermeabilización de techos y terrazas",
+    "brand": "WaterGuard"
+  },
+  "15": {
+    "id_product": "15",
+    "name": "Cable eléctrico",
+    "price": "250",
+    "number": "15",
+    "description": "Conducción de energía eléctrica",
+    "brand": "ElecWire"
+  },
+  "16": {
+    "id_product": "16",
+    "name": "Piedra triturada",
+    "price": "300",
+    "number": "10",
+    "description": "Agregado para construcción de bases",
+    "brand": "RockStone"
+  },
+  "17": {
+    "id_product": "17",
+    "name": "Cal",
+    "price": "150",
+    "number": "8",
+    "description": "Componente para mezclas de mortero",
+    "brand": "LimeMaster"
+  },
+  "18": {
+    "id_product": "18",
+    "name": "Pegamento para madera",
+    "price": "200",
+    "number": "10",
+    "description": "Unión de piezas de madera",
+    "brand": "WoodBond"
+  },
+  "19": {
+    "id_product": "19",
+    "name": "Poliuretano expansivo",
+    "price": "500",
+    "number": "5",
+    "description": "Sellado de espacios y juntas",
+    "brand": "ExpandoSeal"
+  },
+  "20": {
+    "id_product": "20",
+    "name": "Planchas de yeso laminado",
+    "price": "700",
+    "number": "6",
+    "description": "Revestimiento de paredes y techos",
+    "brand": "GypsumBoard"
+  },
+  "21": {
+    "id_product": "21",
+    "name": "Grava",
+    "price": "400",
+    "number": "12",
+    "description": "Material para bases y drenajes",
+    "brand": "GravelPro"
+  },
+  "22": {
+    "id_product": "22",
+    "name": "Láminas de policarbonato",
+    "price": "1000",
+    "number": "3",
+    "description": "Translúcidas y resistentes",
+    "brand": "PolyLight"
+  },
+  "23": {
+    "id_product": "23",
+    "name": "Tornillos para construcción",
+    "price": "50",
+    "number": "100",
+    "description": "Fijación de elementos constructivos",
+    "brand": "BuildFast"
+  },
+  "24": {
+    "id_product": "24",
+    "name": "Mortero de albañilería",
+    "price": "300",
+    "number": "8",
+    "description": "Mezcla lista para trabajos de albañilería",
+    "brand": "MortarMix"
+  },"26": {
+    "id_product": "26",
+    "name": "Láminas de fibrocemento",
+    "price": "1200",
+    "number": "5",
+    "description": "Material resistente a la humedad y fuego",
+    "brand": "FiberTech"
+  },
+  "27": {
+    "id_product": "27",
+    "name": "Pintura anticorrosiva",
+    "price": "800",
+    "number": "7",
+    "description": "Protege superficies metálicas de la corrosión",
+    "brand": "RustShield"
+  },
+  "28": {
+    "id_product": "28",
+    "name": "Hormigón premezclado",
+    "price": "1500",
+    "number": "3",
+    "description": "Mezcla lista para vaciado de estructuras",
+    "brand": "MixCon"
+  },
+  "29": {
+    "id_product": "29",
+    "name": "Aislante acústico",
+    "price": "1000",
+    "number": "4",
+    "description": "Reduce la transmisión de ruido",
+    "brand": "SoundGuard"
+  },
+  "30": {
+    "id_product": "30",
+    "name": "Fibras de refuerzo",
+    "price": "500",
+    "number": "10",
+    "description": "Mejoran la resistencia y durabilidad del concreto",
+    "brand": "FiberMax"
+  },
+  "31": {
+    "id_product": "31",
+    "name": "Piedra natural",
+    "price": "2000",
+    "number": "2",
+    "description": "Revestimiento y decoración de superficies",
+    "brand": "StoneArt"
+  },
+  "32": {
+    "id_product": "32",
+    "name": "Membrana impermeabilizante",
+    "price": "900",
+    "number": "6",
+    "description": "Protección contra filtraciones de agua",
+    "brand": "WaterShield"
+  },
+  "33": {
+    "id_product": "33",
+    "name": "Cinta de soldadura",
+    "price": "150",
+    "number": "20",
+    "description": "Unión de tuberías de PVC",
+    "brand": "PipeWeld"
+  },
+  "34": {
+    "id_product": "34",
+    "name": "Espuma de poliuretano",
+    "price": "350",
+    "number": "8",
+    "description": "Sellado de huecos y aislamiento térmico",
+    "brand": "FoamSeal"
+  },
+  "35": {
+    "id_product": "35",
+    "name": "Perfil de aluminio",
+    "price": "600",
+    "number": "10",
+    "description": "Estructuras y marcos para ventanas",
+    "brand": "AluPro"
+  }
+}

@@ -1,0 +1,41 @@
+
+<title><%=title%></title>
+<link rel="stylesheet" href="css/style.css">
+<%- include("./template/header.ejs") %>
+
+<% let lastId = 0 %>
+<%
+    data.forEach((value, key) => {
+      if (key > lastId) {
+        lastId = key;
+      }
+    }); %>
+<div class="formulario__agregar">
+    <div class="formulario__title">Datos del material</div>
+    <form method="POST" action="/add">
+        <label for="id_product">ID:</label> 
+        <input type="number" required readonly name="id_product" id="id_product" placeholder="ID" value="<%= lastId+1 %>">
+        <label for="name">Nombre:</label> 
+        <input type="text" required name="name"  id="name" placeholder="Nombre del asiento">
+        <label for="price">Precio:</label> 
+        <input type="number" required name="price"  id="price" placeholder="Precio del asiento">
+        <label for="number">Cantidad:</label> 
+        <input type="number" required name="number"  id="number" placeholder="Precio del asiento">
+        <label for="description">Descripcion:</label> 
+        <input type="text" required name="description"  id="description" placeholder="Precio del asiento">
+        <label for="brand">Marca:</label> 
+        <input type="text" required name="brand"  id="brand" placeholder="Precio del asiento">
+        
+
+        <div class="container__buttons">
+
+            <button type="submit" class="button button--success">Agregar</button>
+    
+            <button type="submit" name="accion" value="Cancelar" class="button button--info"><a href="/" class="button--a">Cancelar</a></button>
+        </div>
+    </form>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

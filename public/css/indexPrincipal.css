@@ -1,0 +1,40 @@
+
+
+#principal{
+    min-height: 95vh;
+    background: linear-gradient(rgba(2,55,90,0.78), rgba(2,55,90,0.78)) ,url(../img/imagen.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+  }
+ 
+
+.container--text {
+    padding: 0;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* min-height: 80vh; */
+    color: aliceblue;
+    text-align: center;
+}
+
+.title{
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    font-weight: 550;
+    text-align: center;
+    overflow: hidden;
+}
+
+.text{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+  
+   

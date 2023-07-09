@@ -1,0 +1,83 @@
+.formulario__agregar{
+    border: 1px solid gray;
+    width: 500px;
+    height: 800px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.formulario__title{
+    border-bottom: 1px solid gray;
+    height: 50px;
+    /* background: rgba(0, 0, 0, 0.1); */
+    background: rgb(0, 141, 235);
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.formulario__agregar input[type="text"],
+.formulario__agregar input[type="number"],
+.formulario__agregar input[type="file"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 16px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 1px solid gray;
+    width: 400px;
+    outline: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.formulario__agregar #txtID{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.formulario__agregar input[type="text"]:focus,
+.formulario__agregar input[type="number"]:focus{
+    border-color: rgb(0, 141, 235);
+}
+
+label{
+    position: relative;
+    font-weight: 500;
+    left: 50px;
+}
+
+.container__buttons{
+    position: relative;
+    left: 142px;
+    margin-top: 25px;
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin: -10px;
+    border: none;
+    cursor: pointer;
+    /* color: black; */
+}
+
+.button--success{
+    border-radius: 5px;
+    background: green;
+    margin-right: 20px;
+}
+
+.button--info{
+    border-bottom-right-radius: 5px;
+    background: rgb(0, 141, 235);
+}
+
+.button--a{
+    text-decoration: none;
+    color: white;
+}
+
