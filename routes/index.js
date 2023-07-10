@@ -1,8 +1,10 @@
 //enrutamiento
 //elemtos necesarios para hacer enrutamiento
+const { log } = require('console');
 const express = require('express')
 const fs = require('fs')
 const path = require('path');
+const PDFDocument = require('pdfkit');
 const router = express.Router()
 let inventory = require('./../resources/inventory').inventory;
 
@@ -113,7 +115,39 @@ router.post('/update', (req, res) => {
     // res.end(`<script>window.location.reload();</script>`);
     
 
-})
+});
+
+router.post('/pdf', (req, res) => {
+  console.log('entro a generar pdf');
+
+  const jsonContent = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(jsonContent);
+  const doc = new PDFDocument();
+
+  // Encabezado del PDF
+  doc.fontSize(18).text('Detalles del Producto', { align: 'center' });
+  doc.moveDown();
+  // Contenido del PDF
+  // console.log(inventory);
+  Object.values(data).forEach(product => {
+    doc.fontSize(12)
+      .text(`ID: ${product.id_product}`)
+      .text(`Nombre: ${product.name}`)
+      .text(`Precio: ${product.price}`)
+      .text(`Cantidad: ${product.number}`)
+      .text(`Descripción: ${product.description}`)
+      .text(`Marca: ${product.brand}`)
+      .moveDown();
+  });
+
+  // // Guardar el archivo PDF en el servidor
+  const pdfFilePath = path.join(__dirname, '..', 'resources', 'product_details.pdf');
+  doc.pipe(fs.createWriteStream(pdfFilePath));
+  doc.end();
+
+  res.download(pdfFilePath); // Descargar el archivo PDF generado
+  
+});
 
 
 

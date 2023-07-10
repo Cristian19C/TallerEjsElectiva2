@@ -7,13 +7,19 @@
 <body>
     <div class="container">
         <h1 class="text-center">Inventario</h1><br>
-        <div class="card-body">
+        
+        <div class="btn-group-inline" role="group">
 
             <input type="text" id="filtro-input"  placeholder="Nombre a buscar">
             <button id="filtrar-text" class="btn btn-success">Filtrar</button>
             <button id="filtrar-text" class="btn btn-warning"><a href="/inventory" class="button--a">Cancelar filtro</a></button>
+            <br><br>
+            <form method="post" action="/pdf" class="form-inline">
+                <button type="submit" class="btn btn-primary">Generar pdf</button><br>
+            </form>
         </div>
-        <br><br>
+        
+        <br>
         <% if (data.size > 0) { %>    
         <div class="table-responsive">
                 <table class="table table-light">

@@ -1,24 +1,8 @@
 {
-  "19": {
-    "id_product": "19",
-    "name": "Poliuretano expansivo",
-    "price": "500",
-    "number": "40",
-    "description": "Sellado de espacios y juntas",
-    "brand": "ExpandoSeal"
-  },
-  "20": {
-    "id_product": "20",
-    "name": "Planchas de yeso laminado",
-    "price": "700",
-    "number": "6",
-    "description": "Revestimiento de paredes y techos",
-    "brand": "GypsumBoard"
-  },
   "21": {
     "id_product": "21",
     "name": "Grava",
-    "price": "400",
+    "price": "4000",
     "number": "12",
     "description": "Material para bases y drenajes",
     "brand": "GravelPro"
@@ -134,5 +118,13 @@
     "number": "23",
     "description": "23",
     "brand": "2"
+  },
+  "37": {
+    "id_product": "37",
+    "name": "Cemento",
+    "price": "100000",
+    "number": "10",
+    "description": "Cemento por bultos",
+    "brand": "Argos"
   }
 }
